@@ -27,3 +27,6 @@ Step 2. Add the dependency
 	dependencies {
 	        implementation 'com.github.ggbandAdapter:LineChart:v1.0.0'
 	}
+
+## screenshots
+ ![image](https://raw.githubusercontent.com/ggbandAdapter/LineChart/master/screenshots/linechart.png)
