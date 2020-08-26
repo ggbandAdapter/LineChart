@@ -1,5 +1,6 @@
 package cn.ggband.library
 
+
 import android.content.Context
 import android.graphics.*
 import android.util.AttributeSet
@@ -382,8 +383,10 @@ class LineChartView @JvmOverloads constructor(
         private fun calculationPoint(xy: Pair<Float, Float>): PointF {
             val xP =
                 (mGridRectF.width() * (xy.first - minBottomValue) / (maxBottomValue - minBottomValue)) + mGridRectF.left
-            val yP =
+            var yP =
                 mGridRectF.height() - ((mGridRectF.height() * xy.second / maxLeftValue)) + mGridRectF.top
+            if (yP < mGridRectF.top)
+                yP = mGridRectF.top
             return PointF(xP, yP)
         }
     }
