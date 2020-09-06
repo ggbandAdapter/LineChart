@@ -30,3 +30,5 @@ Step 2. Add the dependency
 
 ## screenshots
  ![image](https://raw.githubusercontent.com/ggbandAdapter/LineChart/master/screenshots/linechart.png)
+ 
+ --- For more details, please see [example](https://github.com/ggbandAdapter/LineChart/tree/master/app)
